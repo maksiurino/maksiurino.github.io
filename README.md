@@ -1,59 +1,66 @@
-<header>
-
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
-
-# GitHub Pages
-
-_Create a site or blog from your GitHub repositories with GitHub Pages._
-
 </header>
-
-<!--
-  <<< Author notes: Step 2 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
-  Historic note: previous version checked for empty pull request, changed to the correct theme `minima`.
--->
-
-## Step 2: Configure your site
-
-_You turned on GitHub Pages! :tada:_
-
-We'll work in a branch, `my-pages`, that I created for you to get this site looking great. :sparkle:
-
-Jekyll uses a file titled `_config.yml` to store settings for your site, your theme, and reusable content like your site title and GitHub handle. You can check out the `_config.yml` file on the **Code** tab of your repository.
-
-We need to use a blog-ready theme. For this activity, we will use a theme named "minima".
-
-### :keyboard: Activity: Configure your site
-
-1. Browse to the `_config.yml` file in the `my-pages` branch.
-1. In the upper right corner, open the file editor.
-1. Add a `theme:` set to **minima** so it shows in the `_config.yml` file as below:
-   ```yml
-   theme: minima
-   ```
-1. (optional) You can modify the other configuration variables such as `title:`, `author:`, and `description:` to further customize your site.
-1. Commit your changes.
-1. (optional) Create a pull request to view all the changes you'll make throughout this course. Click the **Pull Requests** tab, click **New pull request**, set `base: main` and `compare:my-pages`.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+ 
+ <!--
+   <<< Author notes: Course start >>>
+   Include start button, a note about Actions minutes,
+   and tell the learner why they should take the course.
+   <<< Author notes: Step 1 >>>
+   Choose 3-5 steps for your course.
+   The first step is always the hardest, so pick something easy!
+   Link to docs.github.com for further explanations.
+   Encourage users to open new tabs for steps!
+ -->
+ 
+ ## Welcome
+ ## Step 1: Enable GitHub Pages
+ 
+ With GitHub Pages, you can host project blogs, documentation, resumes, portfolios, or any other static content you'd like. Your GitHub repository can easily become its own website. In this course, we'll show you how to set up your own site or blog using GitHub Pages.
+ _Welcome to GitHub Pages and Jekyll :tada:!_
+ 
+ - **Who is this for**: Beginners, students, project maintainers, small businesses.
+ - **What you'll learn**: How to build a GitHub Pages site.
+ - **What you'll build**: We'll build a simple GitHub Pages site with a blog. We'll use [Jekyll](https://jekyllrb.com), a static site generator.
+ - **Prerequisites**: If you need to learn about branches, commits, and pull requests, take [Introduction to GitHub](https://github.com/skills/introduction-to-github) first.
+ - **How long**: This course takes less than one hour to complete.
+ The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
+ 
+ In this course, you will:
+ ### :keyboard: Activity: Enable GitHub Pages
+ 
+ 1. Enable GitHub Pages
+ 2. Configure your site
+ 3. Customize your home page
+ 4. Create a blog post
+ 5. Merge your pull request
+ 
+ ### How to start this course
+ 
+ <!-- For start course, run in JavaScript:
+ 'https://github.com/new?' + new URLSearchParams({
+   template_owner: 'skills',
+   template_name: 'github-pages',
+   owner: '@me',
+   name: 'skills-github-pages',
+   description: 'My clone repository',
+   visibility: 'public',
+ }).toString()
+ -->
+ 
+ [![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=github-pages&owner=%40me&name=skills-github-pages&description=My+clone+repository&visibility=public)
+ 
+ 1. Right-click **Start course** and open the link in a new tab.
+ 2. In the new tab, most of the prompts will automatically fill in for you.
+    - For owner, choose your personal account or an organization to host the repository.
+    - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
+    - Scroll down and click the **Create repository** button at the bottom of the form.
+ 3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
+ 1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
+ 1. Under your repository name, click **Settings**.
+ 1. Click **Pages** in the **Code and automation** section.
+ 1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
+ 1. Click the **Save** button.
+ 1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+    > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
+    > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
+ 
+ <footer>
