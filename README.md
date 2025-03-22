@@ -1,3 +1,3 @@
-# My GitHub Page
+# maksiurino.github.io
 
-Welcome to my GitHub Page! Click the button above to visit the Packages page.
+Welcome to my GitHub Page!
